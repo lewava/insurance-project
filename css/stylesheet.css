@@ -230,6 +230,7 @@ nav a:visited {
 .main-down {
     background-color: #F9B131;
     height: 500px;
+    background-color: orange;
 }
 
 .persons {
@@ -293,3 +294,57 @@ nav a:visited {
     grid-column: 3;
 }
 
+.about {
+    position: relative;
+    top: -100px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+}
+
+.about h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.about p {
+    text-align: center;
+    width: 500px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #504f4f;
+}
+
+
+/************************************************
+                        footer
+************************************************/
+
+.footer-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    background-color: #A8A19E;
+}
+
+.footer-up a {
+    color: #000000;
+    font-size: 32px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-up a:visited {
+    color: #000000;
+}
+
+.footer-down {
+    background-color: #777474;
+    min-height: 350px;
+}
