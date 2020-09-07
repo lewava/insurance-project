@@ -24,7 +24,7 @@ header {
 .left-side {
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    background-color: #C7DDEA;
     padding: 100px 20px 0px 125px;
     flex: 1;
 }
@@ -84,7 +84,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: orangered;
+    background-color: #F17949;
     min-height: 50%;
 }
 
@@ -107,7 +107,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background-color: #F9B131;
     min-height: 50%;
 }
 
@@ -152,7 +152,7 @@ nav a:visited {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #a9a9a9;
+    background-color: #A8A19E;
     padding: 150px 150px 350px 150px;
 }
 
@@ -195,7 +195,7 @@ nav a:visited {
 .img-container-child {
     position: relative;
     top: -565px;
-    background-color: lightblue;
+    background-color: #C7DDEA;
     overflow: hidden;
     border-radius: 10px;
     height: 180px;
@@ -205,7 +205,7 @@ nav a:visited {
 .img-container-adult {
     position: relative;
     top: -565px;
-    background-color: orange;
+    background-color: #F9B131;
     overflow: hidden;
     border-radius: 10px;
     height: 180px;
@@ -215,7 +215,7 @@ nav a:visited {
 .img-container-old {
     position: relative;
     top: -565px;
-    background-color: orangered;
+    background-color: #F17949;
     overflow: hidden;
     border-radius: 10px;
     height: 180px;
@@ -228,7 +228,7 @@ nav a:visited {
 }
 
 .main-down {
-    background-color: orange;
+    background-color: #F9B131;
     height: 500px;
 }
 
@@ -252,3 +252,44 @@ nav a:visited {
     font-weight: 550;
     color: #504f4f;
 }
+
+.main-grid {
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    background-color: white;
+}
+
+.top-left {
+    background-color: #C7DDEA;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.top-mid {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.top-right{
+    background-color:#EBEBEB;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.down-left {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.down-mid {
+    background-color:#F17949;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.down-right{
+    grid-row: 2;
+    grid-column: 3;
+}
+
