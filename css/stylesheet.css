@@ -229,7 +229,7 @@ nav a:visited {
 
 .main-down {
     background-color: #F9B131;
-    height: 500px;
+    min-height: 800px;
     background-color: orange;
 }
 
@@ -255,7 +255,7 @@ nav a:visited {
 }
 
 .main-grid {
-    display: grid;  
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 300px);
     background-color: white;
@@ -272,8 +272,8 @@ nav a:visited {
     grid-column: 2;
 }
 
-.top-right{
-    background-color:#EBEBEB;
+.top-right {
+    background-color: #EBEBEB;
     grid-row: 1;
     grid-column: 3;
 }
@@ -284,12 +284,12 @@ nav a:visited {
 }
 
 .down-mid {
-    background-color:#F17949;
+    background-color: #F17949;
     grid-row: 2;
     grid-column: 2;
 }
 
-.down-right{
+.down-right {
     grid-row: 2;
     grid-column: 3;
 }
