@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+.content {
+max-width: 80%;
+margin: auto;
+
+}
+
+/* COVER CONTACT PAGE*/
+.topp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color:#C7DDEA;
+}
+
+.topp h1 {
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    width: 314px;
+    height: 101px;
+    left: 563px;
+    top: 171px;
+}
+.header-img {
+    margin-left: 50px;
+}
+/* NAV*/
+
+
+.navbar{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+    overflow: hidden;
+    list-style: none;
+    border: 1px solid white;
+    background-color: #FFFFFF;
+}
+
+li > a {
+    color: #666666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+
+    color: black;
+}
+
+/* send mail page*/
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #A9A19E;
+
+}
+
+.box {
+    flex: 0 1 150px;
+    flex: 1 1 150px;
+    margin: 5px;
+    background-color: #A9A19E;
+}
+
+.sidebar {
+    padding-left: 150px;
+    color: white;
+}
+
+.sidebar h1 {
+    font-size: 40px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: hidden;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    padding: 12px 20px;
+    border: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    /* margin-left: 150px; */
+
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.mail-us {
+    border: hidden;
+    border-radius: 2px;
+    background-color: #A9A19E;
+    padding: 20px;
+    margin-right: 80px;
+
+}
+
+/* VISIT US */
+.black-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+
+.orange {
+    display: flex;
+    flex-direction: column; 
+}
+
+footer {
+    background-color: #A9A19E;
+    height: 200px;
+}
+
