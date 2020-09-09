@@ -18,13 +18,13 @@ body {
 ************************************************/
 
 header {
-    display: flex;
+    display: inline-flex;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
-    background-color: #C7DDEA;
+    background-color: lightblue;
     padding: 100px 20px 0px 125px;
     flex: 1;
 }
@@ -347,4 +347,14 @@ nav a:visited {
 .footer-down {
     background-color: #777474;
     min-height: 350px;
+}
+
+@media only screen and (max-width: 320px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .content {
+        max-width: 100%;
+    }
 }

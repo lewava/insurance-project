@@ -1,0 +1,110 @@
+body {}
+
+@media only screen and (min-width: 320px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    /************************************************
+                     Header
+    ************************************************/
+    .header-one {
+        background-color: #C7DDEA;
+        height: 594px;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 15px 0px 15px;
+    }
+    .header-one h1 {
+        height: 101px;
+        width: 343px;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .header-one p {
+        height: 103px;
+        width: 290px;
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #00000099;
+        margin-bottom: 0px;
+    }
+    .header-one span {
+        color: #ffffff;
+    }
+    .header-one button {
+        width: 125px;
+        height: 35px;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 25px;
+        border: none;
+        box-shadow: 3px 3px 10px #464545;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: 50px;
+    }
+    .header-one button:hover {
+        transform: scale(1.2);
+    }
+    .header-one img {
+        width: 300px;
+    }
+    .header-two {
+        height: 315px;
+        background-color: #F17949;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-two h3 {
+        color: #00000080;
+        font-size: 11px;
+    }
+    .header-two h1 {
+        color: #ffffff;
+        font-size: 32px;
+    }
+    .header-three {
+        height: 315px;
+        background-color: #FAB131;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-three h3 {
+        color: #00000080;
+        font-size: 11px;
+    }
+    .header-three h1 {
+        color: #ffffff;
+        font-size: 32px;
+    }
+    /************************************************
+                     Main
+    ************************************************/
+    main {
+        background-color: #A9A19E;
+        height: 1580px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px 30px 10px;
+    }
+    .main-one h1 {
+        color: #ffffff;
+        height: 140px;
+        width: 300px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .main-one p {
+        width: 343px;
+        height: 237px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
