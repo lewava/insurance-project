@@ -1,39 +1,40 @@
-body {
+* {
     margin: 0;
+    padding: 0;
 }
 
 .content {
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
 }
 
 
-/* COVER CONTACT PAGE*/
+/************************************************
+                     Header
+************************************************/
 
-.topp {
+header {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
     background-color: #C7DDEA;
+    padding: 50px 100px 0px 0px;
 }
 
-.topp h1 {
+header h1 {
     font-size: 45px;
-    margin-left: 400px;
+    margin-right: 60px;
 }
 
-.header-img {
-    overflow: hidden;
-}
-
-.header-img img {
-    position: relative;
-    bottom: -200px;
-    width: 150px;
+.menu {
+    width: 50px;
 }
 
 
-/* NAV*/
+/************************************************
+                     Navbar
+************************************************/
 
 .navbar {
     display: flex;
@@ -62,7 +63,9 @@ li>a {
 }
 
 
-/*Contact*/
+/************************************************
+                     Contact
+************************************************/
 
 .contact {
     display: flex;
@@ -133,15 +136,47 @@ textarea {
 }
 
 
-/* Map */
+/************************************************
+                     Map
+************************************************/
 
 .map {
-    height: 407px;
-    background-color: #000000;
+    background-image: url("../img/map.png");
+    height: 507px;
+    padding: 60px 0px 0px 80px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.map img {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.map-box {
+    width: 323px;
+    height: 206px;
+    background: #FAB131;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px 0px 0px 30px;
+}
+
+.map-box h1 {
+    color: #FFFFFF;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.map-box p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 
-/* Footer */
+/************************************************
+                     Footer
+************************************************/
 
 footer {
     height: 340px;
