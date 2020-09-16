@@ -4,8 +4,17 @@
 }
 
 .content {
-    max-width: 60%;
+    max-width: 1002px;
     margin: auto;
+}
+
+
+/************************************************
+                     Text
+************************************************/
+
+h1 {
+    font-size: 3rem;
 }
 
 
@@ -15,20 +24,18 @@
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     background-color: #C7DDEA;
-    padding: 50px 100px 0px 0px;
+    padding: 3em 6em 0em 0em;
 }
 
 header h1 {
-    font-size: 45px;
-    margin-right: 60px;
+    margin-right: 2em;
 }
 
-.menu {
-    width: 50px;
+header img {
+    width: 18%;
 }
 
 
@@ -38,24 +45,17 @@ header h1 {
 
 .navbar {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    height: 50px;
-    margin: 10px;
-    justify-content: space-evenly;
-    overflow: hidden;
     list-style: none;
-    border: 1px solid white;
-    background-color: #FFFFFF;
+    padding: 1.5em 0;
 }
 
 li>a {
-    color: #666666;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #666666;
+    font-weight: 900;
+    text-decoration: none;
 }
 
 .navbar a:hover {
@@ -69,51 +69,56 @@ li>a {
 
 .contact {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #A9A19E;
-    padding: 150px 150px 80px 100px;
+    padding: 5em 0;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.right-side {
+    width: 40%;
 }
 
 .left-side h1 {
-    font-size: 45px;
     color: #FFFFFF;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
 }
 
 label {
+    font-weight: 600;
     color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-    padding-bottom: 7px;
-}
-
-.label-msg {
-    margin-top: 30px;
+    margin-bottom: .5em;
 }
 
 input {
-    width: 334px;
-    height: 40px;
+    width: 100%;
+    height: 1.5em;
     border-radius: 2px;
     border: none;
     outline: none;
+    margin-bottom: 2em;
+    padding: .75em 0em;
 }
 
 textarea {
-    width: 334px;
-    height: 166px;
+    width: 100%;
+    height: 12em;
     border-radius: 2px;
     border: none;
     outline: none;
+    margin-bottom: 2em;
 }
 
 .btn {
-    width: 150px;
-    height: 40px;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 25px;
@@ -122,17 +127,15 @@ textarea {
     transition: all .2s ease-in-out;
     cursor: pointer;
     outline: none;
-    margin-top: 30px;
+    width: 45%;
+    height: 3.5em;
     align-self: flex-end;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: 0.75rem;
 }
 
 .btn:hover {
     transform: scale(1.2);
-}
-
-.left-side img {
-    width: 350px;
 }
 
 
@@ -142,34 +145,38 @@ textarea {
 
 .map {
     background-image: url("../img/map.png");
-    height: 507px;
-    padding: 60px 0px 0px 80px;
-    display: flex;
-    align-items: flex-start;
+    padding: 2em 0;
 }
 
-.map img {
-    margin-top: 150px;
-    margin-left: 50px;
+.inner-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 4em 0em 7em 5em;
+}
+
+.inner-container img {
+    position: relative;
+    width: 8%;
+    align-self: flex-end;
+    bottom: -1.5em;
 }
 
 .map-box {
-    width: 323px;
-    height: 206px;
+    width: 35%;
     background: #FAB131;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-    padding: 20px 0px 0px 30px;
+    padding: 1.5em 0 5em 2em;
+    margin-right: 2.5em;
 }
 
 .map-box h1 {
     color: #FFFFFF;
-    font-size: 45px;
-    margin-bottom: 10px;
+    margin-bottom: .25em;
 }
 
 .map-box p {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 0.75rem;
     font-weight: 600;
 }
 
@@ -181,4 +188,110 @@ textarea {
 footer {
     height: 340px;
     background-color: #777574;
+}
+
+
+/************************************************
+                     Mobile
+************************************************/
+
+@media (max-width: 600px) {
+    .content {
+        min-width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    /************************************************
+                     Mobile Header
+    ************************************************/
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 2em 0 0 2em;
+    }
+    header img {
+        width: 50%;
+    }
+    /************************************************
+                     Mobile Contact
+    ************************************************/
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #A9A19E;
+        padding: 2em 0;
+    }
+    .left-side {
+        width: 100%;
+        text-align: center;
+    }
+    .right-side {
+        width: 100%;
+    }
+    .left-side h1 {
+        font-size: 2rem;
+        padding: 1em 1em;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    input {
+        width: 70%;
+    }
+    textarea {
+        width: 70%;
+        height: 7em;
+    }
+    .btn {
+        align-self: center;
+    }
+    /************************************************
+                     Mobile Map
+    ************************************************/
+    .map {
+        background-image: url("../img/map.png");
+        padding: 3em 2em;
+    }
+    .inner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .inner-container img {
+        position: relative;
+        width: 12%;
+        align-self: flex-end;
+        bottom: 0;
+    }
+    .map-box {
+        width: 70%;
+        background: #FAB131;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+        padding: 1em 0 2em 1em;
+        margin-right: 2.5em;
+    }
+    .map-box h1 {
+        font-size: 1.75rem;
+        color: #FFFFFF;
+        margin-bottom: .25em;
+    }
+    .map-box p {
+        color: #FFFFFF;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    /************************************************
+                     Mobile Footer
+    ************************************************/
+    footer {
+        height: 250px;
+        background-color: #777574;
+    }
 }
