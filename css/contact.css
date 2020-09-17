@@ -6,9 +6,10 @@
 body {
     font-family: sans-serif;
 }
+
 .content {
     max-width: 1002px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 
@@ -221,12 +222,9 @@ footer {
     header h2 {
         font-family: serif;
     }
-
     header img {
         width: 50%;
     }
-
-
     /************************************************
                      Mobile Nav
     ************************************************/

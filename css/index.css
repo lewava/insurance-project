@@ -4,7 +4,7 @@
         padding: 0px;
     }
     body {
-        max-width: 80%;
+        max-width: 1002px;
         margin: auto;
         font-family: sans-serif;
     }
@@ -16,8 +16,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
     }
-
-    header h3{
+    header h3 {
         font-family: serif;
         color: #ffffff;
         font-size: 36px;
@@ -62,11 +61,11 @@
         box-shadow: 3px 3px 10px #464545;
         transition: all .2s ease-in-out;
         cursor: pointer;
+        outline: none;
     }
     .header-one button:hover {
         transform: scale(1.2);
     }
- 
     .header-one img {
         width: 20em;
     }
@@ -78,7 +77,6 @@
         background-color: #F17949;
         min-height: 50%;
     }
-
     .header-three {
         display: flex;
         flex-direction: column;
@@ -87,7 +85,6 @@
         background-color: #FAB131;
         min-height: 50%;
     }
-
     /************************************************
                         nav
     ************************************************/
@@ -105,7 +102,7 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-decoration: none;
         color: #817f7f;
-        font-size: 20px;
+        font-size: 1rem;
     }
     nav a:hover {
         color: black !important;
@@ -139,6 +136,7 @@
         box-shadow: 3px 3px 10px #464545;
         transition: all .2s ease-in-out;
         cursor: pointer;
+        outline: none;
     }
     .btn-two:hover {
         transform: scale(1.2);
@@ -263,7 +261,6 @@
     }
     .box-zero h3 {
         font-size: 45px;
-
     }
     .box-two {
         background-color: #EBEBEB;
@@ -324,26 +321,22 @@
         flex-direction: column;
         padding: 50px 15px 0px 15px;
     }
-    
     .header-one h2 {
         height: 101px;
         font-family: serif;
         font-size: 45px;
         margin-bottom: 20px;
     }
-
     header h3 {
         font-family: serif;
         color: #ffffff;
         font-size: 36px;
     }
-
     header h4 {
         color: #00000080;
         font-size: 13px;
         font-family: serif;
     }
-
     .header-one p {
         height: 103px;
         width: 290px;
@@ -385,7 +378,6 @@
         align-items: center;
         justify-content: center;
     }
-    
     .header-three {
         height: 315px;
         background-color: #FAB131;
@@ -394,7 +386,6 @@
         align-items: center;
         justify-content: center;
     }
-    
     /************************************************
                      Nav
     ************************************************/
