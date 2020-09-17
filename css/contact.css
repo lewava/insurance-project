@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
 .content {
     max-width: 1002px;
     margin: auto;
@@ -13,7 +16,7 @@
                      Text
 ************************************************/
 
-h1 {
+h2 {
     font-size: 3rem;
 }
 
@@ -30,8 +33,9 @@ header {
     padding: 3em 6em 0em 0em;
 }
 
-header h1 {
+header h2 {
     margin-right: 2em;
+    font-family: serif;
 }
 
 header img {
@@ -82,8 +86,9 @@ li>a {
     width: 40%;
 }
 
-.left-side h1 {
+.left-side h2 {
     color: #FFFFFF;
+    font-family: serif;
 }
 
 form {
@@ -169,15 +174,17 @@ textarea {
     margin-right: 2.5em;
 }
 
-.map-box h1 {
+.map-box h2 {
     color: #FFFFFF;
     margin-bottom: .25em;
+    font-family: serif;
 }
 
 .map-box p {
     color: #FFFFFF;
     font-size: 0.75rem;
     font-weight: 600;
+    line-height: 24px;
 }
 
 
@@ -211,8 +218,20 @@ footer {
         align-items: flex-end;
         padding: 2em 0 0 2em;
     }
+    header h2 {
+        font-family: serif;
+    }
+
     header img {
         width: 50%;
+    }
+
+
+    /************************************************
+                     Mobile Nav
+    ************************************************/
+    nav {
+        display: none;
     }
     /************************************************
                      Mobile Contact
@@ -231,9 +250,10 @@ footer {
     .right-side {
         width: 100%;
     }
-    .left-side h1 {
+    .left-side h2 {
         font-size: 2rem;
         padding: 1em 1em;
+        font-family: serif;
     }
     form {
         display: flex;
@@ -277,15 +297,17 @@ footer {
         padding: 1em 0 2em 1em;
         margin-right: 2.5em;
     }
-    .map-box h1 {
+    .map-box h2 {
         font-size: 1.75rem;
         color: #FFFFFF;
         margin-bottom: .25em;
+        font-family: serif;
     }
     .map-box p {
         color: #FFFFFF;
         font-size: 0.75rem;
         font-weight: 600;
+        line-height: 24px;
     }
     /************************************************
                      Mobile Footer
