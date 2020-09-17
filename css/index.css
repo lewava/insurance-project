@@ -362,6 +362,7 @@
         transition: all .2s ease-in-out;
         cursor: pointer;
         margin-bottom: 50px;
+        outline: none;
     }
     .header-one button:hover {
         transform: scale(1.2);
@@ -390,7 +391,26 @@
                      Nav
     ************************************************/
     nav {
-        display: none;
+        height: 100px;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100px;
+    }
+    nav a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        color: #817f7f;
+        font-size: 1rem;
+    }
+    nav a:hover {
+        color: black !important;
+    }
+    nav a:visited {
+        color: #817f7f;
     }
     /************************************************
                      Main-one
@@ -420,6 +440,7 @@
     }
     .btn-two {
         display: none;
+        outline: none;
     }
     .persons {
         display: flex;
